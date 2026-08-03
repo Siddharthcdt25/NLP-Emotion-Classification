@@ -1,10 +1,5 @@
 # 🧠 NLP Emotion Classification
 
-<p align="center">
-
-  <img src="assets/snapshot.png" alt="NLP Emotion Classification - Project Snapshot" width="100%">
-
-</p>
 
 <p align="center">
   <strong>A Classical Machine Learning NLP application for detecting emotions from natural language.</strong>
@@ -49,6 +44,45 @@ instant emotion prediction through an interactive web interface.
 - 😲 Surprise
 
 ---
+
+## 📸 Project Snapshots
+
+<p align="center">
+  <img src="assets/dashboard.png"
+       alt="NLP Emotion Classification Dashboard"
+       width="90%">
+</p>
+
+<p align="center">
+  <strong>Interactive NLP Emotion Classification Dashboard</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/prediction-joy.png"
+       alt="Joy Emotion Prediction"
+       width="90%">
+</p>
+
+<p align="center">
+  <strong>Example: Joy Emotion Prediction</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/prediction-sadness.png"
+       alt="Sadness Emotion Prediction"
+       width="90%">
+</p>
+
+<p align="center">
+  <strong>Example: Sadness Emotion Prediction</strong>
+</p>
+
+---
+
 
 ## 🎯 Project Objective
 
@@ -97,130 +131,3 @@ NLP before moving toward deep learning and transformer-based approaches.
                      │
                      ▼
              Emotion Prediction
-
-## 📊 Dataset
-
-The project uses a labeled text dataset for emotion classification.
-
-Each record contains two main fields:
-
-| Column | Description |
-|---|---|
-| `text` | Input sentence/text |
-| `emotion` | Target emotion label |
-
-The dataset contains six emotion categories:
-
-```text
-anger
-fear
-joy
-love
-sadness
-surprise
-
-
-### 🧹 Text Processing
-
-```markdown
-# 🧹 Text Processing
-
-Natural language cannot be directly provided to a traditional machine
-learning algorithm. Therefore, the text must first be transformed into a
-suitable numerical representation.
-
-The general text-processing workflow used in this project is:
-
-```text
-Raw Text
-   ↓
-Text Cleaning
-   ↓
-Text Normalization
-   ↓
-Feature Extraction
-   ↓
-Numerical Feature Matrix
-   ↓
-Machine Learning Model
-
-
-### 📝 TF-IDF Feature Extraction
-
-```markdown
-# 📝 TF-IDF Feature Extraction
-
-The final model uses **TF-IDF (Term Frequency-Inverse Document Frequency)**
-for converting text into numerical features.
-
-TF-IDF measures the importance of a word within a document relative to the
-entire collection of documents.
-
-The basic idea is:
-
-```text
-TF-IDF
-   =
-Term Frequency × Inverse Document Frequency
-
-
-### ▶️ Run Locally
-
-```markdown
-# ▶️ Run Locally
-
-You can run the application locally using Python and Streamlit.
-
-## 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/NLP-Emotion-Classification.git
-
-
-### 🔍 Why Classical NLP?
-
-```markdown
-# 🔍 Why Classical NLP?
-
-This project intentionally uses **classical Natural Language Processing**
-rather than deep learning or transformer-based architectures.
-
-The primary objective was to understand the fundamental NLP workflow and how
-traditional machine learning algorithms can be applied to text classification.
-
-The project demonstrates the complete classical NLP pipeline:
-
-```text
-Raw Text
-   ↓
-Text Processing
-   ↓
-Feature Engineering
-   ↓
-Bag-of-Words / TF-IDF
-   ↓
-Machine Learning
-   ↓
-Model Evaluation
-   ↓
-Model Serialization
-   ↓
-Deployment
-
-
-### ⚠️ Limitations
-
-```markdown
-# ⚠️ Limitations
-
-Although the model achieves strong classification performance on the
-evaluation data, emotion classification is inherently challenging.
-
-A sentence can have different emotional meanings depending on context,
-conversation history, tone, sarcasm, and the way it is expressed.
-
-For example:
-
-```text
-"I'm fine."
-
