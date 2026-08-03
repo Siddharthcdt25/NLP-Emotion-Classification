@@ -1,5 +1,12 @@
 # 🧠 NLP Emotion Classification
 
+<p align="center">
+  <img
+    src="assets/emotionai-banner.png"
+    alt="EmotionAI - NLP Emotion Classification"
+    width="100%"
+  >
+</p>
 
 <p align="center">
   <strong>A Classical Machine Learning NLP application for detecting emotions from natural language.</strong>
